@@ -5,7 +5,7 @@ var topics = ["Mariah Carey", "Celine Dion", "TLC", "Shania Twain", "Destiny's C
 function displayInfo() {
     
     var diva = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + diva + "&apikey=TiuypDCuycKCSwwqsmsxXuDBF8c0WISy&limit=10&rating=pg";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + diva + "&apikey=TiuypDCuycKCSwwqsmsxXuDBF8c0WISy&limit=10&rating=pg";
 
 
     // Creating an AJAX call for the specific diva button being clicked
